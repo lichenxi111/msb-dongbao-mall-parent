@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="msb-dongbao-ums" />
+        <module name="msb-dongbao-mall-application" />
+        <module name="msb-dongbao-generator" />
+        <module name="msb-dongbao-mall-common" />
+        <module name="msb-dongbao-mall-api-ums" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="msb-dongbao-generator" target="1.8" />
+      <module name="msb-dongbao-mall-api" target="1.8" />
+      <module name="msb-dongbao-mall-api-ums" target="1.8" />
+      <module name="msb-dongbao-mall-application" target="1.8" />
+      <module name="msb-dongbao-mall-common" target="1.8" />
+      <module name="msb-dongbao-mall-parent-v1" target="1.8" />
+      <module name="msb-dongbao-mall-service" target="1.8" />
+      <module name="msb-dongbao-ums" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="msb-dongbao-generator" options="-parameters" />
+      <module name="msb-dongbao-mall-api" options="-parameters" />
+      <module name="msb-dongbao-mall-api-ums" options="-parameters" />
+      <module name="msb-dongbao-mall-application" options="-parameters" />
+      <module name="msb-dongbao-mall-common" options="-parameters" />
+      <module name="msb-dongbao-mall-parent-v1" options="-parameters" />
+      <module name="msb-dongbao-mall-service" options="-parameters" />
+      <module name="msb-dongbao-ums" options="-parameters" />
+    </option>
+  </component>
+</project>

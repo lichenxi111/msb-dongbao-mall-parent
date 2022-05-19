@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/msb-dongbao-generator/msb-dongbao-generator.iml" filepath="$PROJECT_DIR$/msb-dongbao-generator/msb-dongbao-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-mall-api.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-mall-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-mall-api-ums/msb-dongbao-mall-api-ums.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-api/msb-dongbao-mall-api-ums/msb-dongbao-mall-api-ums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-mall-application.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-mall-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-mall-common.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-mall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-parent-v1.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-parent-v1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-mall-service.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-mall-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/msb-dongbao-ums.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/msb-dongbao-ums.iml" />
+    </modules>
+  </component>
+</project>
