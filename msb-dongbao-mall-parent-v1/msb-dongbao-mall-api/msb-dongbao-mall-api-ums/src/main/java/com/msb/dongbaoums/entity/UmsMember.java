@@ -6,9 +6,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import java.time.LocalDateTime;
-import java.util.Date;
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * 后台用户表(UmsMember)实体类

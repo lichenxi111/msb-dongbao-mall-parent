@@ -1,8 +1,8 @@
 package com.msb.dongbaoums.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.msb.dongbaoums.entity.UmsMember;
 
+import com.msb.dongbaoums.entity.UmsMember;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -75,6 +75,13 @@ public interface UmsMemberMapper extends BaseMapper<UmsMember> {
      * @return 影响行数
      */
     int deleteById(Long id);
+
+    /**
+     * 根据用户名查询信息
+     * @param username 用户名
+     * @return 查询的实例对象
+     */
+    UmsMember selectByUsername(String username);
 
 }
 

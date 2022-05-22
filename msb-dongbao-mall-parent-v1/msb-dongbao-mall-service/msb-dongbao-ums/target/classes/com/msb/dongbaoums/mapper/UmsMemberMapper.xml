@@ -16,12 +16,12 @@
     </resultMap>
 
     <!--查询单个-->
-    <select id="queryById" resultMap="UmsMemberMap">
+    <!--<select id="queryById" resultMap="UmsMemberMap">
         select
           id, username, password, icon, email, nick_name, note, create_time, login_time, status
         from ums_member
         where id = #{id}
-    </select>
+    </select>-->
 
   <!--  &lt;!&ndash;查询指定行数据&ndash;&gt;
     <select id="queryAllByLimit" resultMap="UmsMemberMap">
@@ -134,7 +134,7 @@
     </insert>
 
     <!--通过主键修改数据-->
-    <update id="update">
+    <!--<update id="update">
         update ums_member
         <set>
             <if test="username != null and username != ''">
@@ -166,12 +166,18 @@
             </if>
         </set>
         where id = #{id}
-    </update>
+    </update>-->
 
     <!--通过主键删除-->
-    <delete id="deleteById">
+    <!--<delete id="deleteById">
         delete from ums_member where id = #{id}
-    </delete>
+    </delete>-->
 
+    <!--通过用户名查询-->
+    <select id="selectByUsername" parameterType="string" resultType="com.msb.dongbaoums.entity.UmsMember">
+        select
+               id,username,password
+        from ums_member where username = #{username}
+    </select>
 </mapper>
 

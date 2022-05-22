@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-mall-common.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-common/msb-dongbao-mall-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-parent-v1.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-parent-v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-mall-service.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-mall-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/msb-dongbao-portal-web.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-application/msb-dongbao-portal-web/msb-dongbao-portal-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/msb-dongbao-ums.iml" filepath="$PROJECT_DIR$/msb-dongbao-mall-service/msb-dongbao-ums/msb-dongbao-ums.iml" />
     </modules>
   </component>
